@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 165px;
+    padding-bottom: 30px;
+}
+
+.form {
+    text-align: center;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 50px;
+    border: 0px solid lightgray;
+    border-radius: 25px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 5px lightgray;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.search_icon,
+.mic_icon,
+.key_icon {
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search_icon {
+    left: 20px;
+}
+
+.mic_icon {
+    right: 50px;
+}
+
+.key_icon {
+    right: 20px;
+}
+
+.shortage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.youtube_short {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.youtube_short:hover {
+    background-color: lightgray;
+}
+
+.test {
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+.test img {
+    padding-top: 10px;
+}
+
+.youtube_short p {
+    margin: 1;
+    font-size: 15px;
+    color: #333;
+}
